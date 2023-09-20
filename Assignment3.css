@@ -1,17 +1,36 @@
 
 
 P{
-    color: Aqua;
+    color: aqua;
     background-color: black}
 
 a:link{color:red;
 }
 
-a:hover{color:yellow;
+a:hover{
+    color:yellow;
 }
 
-a:visited{color:green;
+a:visited{
+    color:green;
 }
 
+h3{
+    background-color:black;
+    color:aqua;
+}
 
+h2{
+    background-color: black;
+    color:aqua;
+}
 
+h4{
+    background-color: black;
+    color: aqua;
+}
+
+.changecolor{
+    background-color: black;
+    color: aqua;
+}
