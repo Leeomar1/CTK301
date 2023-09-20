@@ -1,7 +1,7 @@
 
 
 P{
-    Color: blue;
+    Color: Aqua;
 
 }
 
@@ -15,9 +15,9 @@ a:link{
 }
 
 a:hover{
-color:yellow
+color:yellow;
 }
 
 a:visited{
-    color:green
+    color:green;
 }
