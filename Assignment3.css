@@ -2,22 +2,16 @@
 
 P{
     color: Aqua;
+    background-color: black}
 
+a:link{color:red;
 }
 
-p{
-
-    background-color: black;
+a:hover{color:yellow;
 }
 
-a:link{
- color:red;
+a:visited{color:green;
 }
 
-a:hover{
-color:yellow;
-}
 
-a:visited{
-    color:green;
-}
+
