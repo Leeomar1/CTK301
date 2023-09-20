@@ -1,0 +1,23 @@
+
+
+P{
+    Color: blue;
+
+}
+
+p{
+
+    background-color: black;
+}
+
+a:link{
+ color:red;
+}
+
+a:hover{
+color:yellow
+}
+
+a:visited{
+    color:green
+}
