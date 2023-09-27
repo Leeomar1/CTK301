@@ -1,0 +1,80 @@
+h1{
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    border: 1px black;
+    width: 300px;
+    padding: 0px;
+    margin: 10px;
+    background: 10px white;
+    display: inline-block;}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    border: 1px black;
+    width: 200px;
+    padding: 0px;
+    margin: 10px;
+    background: 10px rgb(4, 4, 80);
+    display: inline-block;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;}
+
+   nav li a:hover{
+    color: aqua;
+ }
+
+    a{
+        color: rgb(7, 7, 231);
+        text-decoration: none;
+
+    }
+
+    a:hover{
+        color: red;
+    }
+
+    .justified{
+    text-align: justify;
+}
+
+body{
+    background-image: url(a5bg.png);
+}
+
+main{
+    border: 1px black;
+    width: 1500px;
+    padding: 0px;
+    margin: 10px;
+    background: 10px white;
+    display: inline-block;
+}
+
+footer{
+    border: 2px solid white;
+    width: 1200px;
+    padding: 0px;
+    margin: 10px;
+    background: 10px rgb(4, 4, 80);
+    display: inline-block;
+}
+
+.white{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    border-bottom: 3px solid rgb(4, 4, 80);
+}
