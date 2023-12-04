@@ -1,11 +1,11 @@
-body { background-color: #999999; }
+body { background-color: grey; }
 
 #wrapper {
   margin: 1em auto;
   padding: 0;
   width: 960px;
-  border: 1px solid #ff0000;
-  background-color: #ffffff;
+  border: 5px solid white;
+  background-color: #080808;
   display: grid;
   grid-template-columns: 12px;
 }
@@ -42,7 +42,7 @@ nav li {
   nav li a {
     color: #ffffff;
     display: block;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     background-color: #cc0000;
     background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
@@ -67,6 +67,7 @@ main {
 }
  .HTWO{
     text-align: center;
+    color: white;
  }
 
  .Align{
