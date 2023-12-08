@@ -1,22 +1,25 @@
-body { background-color: grey; }
+body { background-color: #03134c; }
 
 #wrapper {
-  margin: 1em auto;
+  margin: 3em auto;
   padding: 0;
   width: 960px;
-  border: 5px solid white;
+  border: 8px solid rgb(60, 56, 56);
   background-color: #080808;
   display: grid;
   grid-template-columns: 12px;
+  
 }
 
 header {
   grid-column: span 12 ;
   background-color: #136ef6;
   background-image: linear-gradient(to bottom,  #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
-  color: white;
-  border-radius: 10px;
+  color: rgb(255, 255, 255);
   border:5px;
+  font-family: "bilo", sans-serif;
+font-weight: 200;
+font-style: normal;
 }
 
 nav {
@@ -39,6 +42,10 @@ nav li {
     color: #ffffff;
   }
   
+  nav a:hover{
+    color: grey;
+  }
+
   nav li a {
     color: #ffffff;
     display: block;
@@ -46,10 +53,16 @@ nav li {
     padding: 10px;
     background-color: #cc0000;
     background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
-border-radius: 10px;}
+border-radius: 10px;
+text-decoration: none;
+font-family: "bilo", sans-serif;
+font-weight: 200;
+font-style: normal;}
+
+
 
 main {
-  grid-column: span 6;
+grid-column: span 12;
 }
 
 
@@ -59,7 +72,9 @@ main {
     width: 150px;
     border: 5px solid #136ef6;
     padding-bottom: 0px;
-    margin-right:20px;
+    margin-right:10px;
+    float: left;
+    margin-bottom: 200px;
 
 
     
@@ -68,6 +83,18 @@ main {
  .HTWO{
     text-align: center;
     color: white;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: #cc0000;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+border-radius: 10px;
+text-decoration: none;
+margin-right: 350px;
+margin-left: 350px;
+font-family: "bilo", sans-serif;
+font-weight: 200;
+font-style: normal;
  }
 
  .Align{
@@ -87,7 +114,22 @@ main {
     background-color: #ff0000;
     grid-column: span 12;
     background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
-    border-radius: 10px;
     color: white;
+    font-family: "bilo", sans-serif;
+font-weight: 200;
+font-style: normal;
   }
+  
+  .Marginleft{
+    margin-left: 5px;
+  }
+
+  .whitecolor a{
+    color: white;
+    margin-left:  5px;
+    font-size: 2rem;
+  }
+
+
+
   
