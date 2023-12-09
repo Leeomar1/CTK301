@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Leeomars Portfolio </title>
 	<link href="Final.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 </head>
 
 <body> 
@@ -20,12 +22,21 @@
 	</nav>
 	<main>
 		<h2>Projects</h2>
-		<img class="" src="" alt=""/>
-		<p ></p>
+        <p class="Whitecolor">Project 1</p>
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="Stunning_Maimu_2_3_100x45.png"></div>
+            <div class="f-carousel__slide"><img src="IMG_20220715_225116_450_2_100x100.jpg"></div>
+            
+        </div>
 	</main>
 	<footer>
     <p class="Marginleft">Property and all content belongs to Leeomar Flores</p>
 	</footer>
-</div>
+
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: false };
+        new Carousel(container, options);
+    </script>
 </body>
 </html>
